@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tenis - FootFusion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">FootFusion</a>
+            <img src="logo.png" alt="Logo de FootFusion" style="width: 90px; height: auto;" class="me-2">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorías
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="zapatos_formales.html">Zapatos formales</a></li>
+                            <li><a class="dropdown-item" href="tenis.html">Tenis</a></li>
+                            <li><a class="dropdown-item" href="chanclas.html">Chanclas</a></li>
+                            <li><a class="dropdown-item" href="botas.html">Botas</a></li>
+                            <li><a class="dropdown-item" href="zapatos_personalizados.html">Zapatos personalizados</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Listado de Zapatos Formales -->
+    <section class="container mt-3">
+        <h1 class="text-center mb-4">Tenis disponibles</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes para Zapato 1 -->
+                    <div id="carouselFormal1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="cortez1.jpeg" class="d-block w-100" alt="Zapato Formal 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="cortez2.jpeg" class="d-block w-100" alt="Zapato Formal 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Nike Cortez</h5>
+                        <p class="card-text"><strong>Precio:</strong> $120.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong> 38-39-40-41</p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo1" role="button" aria-expanded="false" aria-controls="moreInfo1">Ver más</a>
+                        <div class="collapse" id="moreInfo1">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    La Nike Cortez es una zapatilla clásica, lanzada en 1972, famosa por su comodidad y estilo icónico. Tiene una suela de goma para mejor tracción y una parte superior en cuero o nylon, lo que la hace ligera y resistente. Perfecta para uso casual o deportivo, es un símbolo de versatilidad y moda atemporal.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Nylon </li>
+                                    <li><strong>Colores disponibles:</strong> Blanco con logo rojo,verde y logo blanco</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Zapato -->
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes para Zapato 2 -->
+                    <div id="carouselFormal2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="air1.jpeg" class="d-block w-100" alt="Zapato Formal 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="air2.jpeg" class="d-block w-100" alt="Zapato Formal 4">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">  Nike Air Force 1 </h5>
+                        <p class="card-text"><strong>Precio:</strong> $100.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong> 39, 40, 41</p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo2" role="button" aria-expanded="false" aria-controls="moreInfo2">Ver más</a>
+                        <div class="collapse" id="moreInfo2">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    Tenis clásicos de cuero con suela gruesa y amortiguación Air para mayor comodidad.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Cuero, goma</li>
+                                    <li><strong>Colores disponibles:</strong> blanco y blanco con negro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        <!--fin segundo zapato-->
+       
+        <!--inicio 3er producto-->
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <!-- Carrusel de imágenes -->
+                <div id="carouselFormal3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="adidas1.jpeg" class="d-block w-100" alt="Zapato Formal 3 - Imagen 5 ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="adidas2.jpeg" class="d-block w-100" alt="Zapato Formal 3 - Imagen 6">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+                <!-- Fin del Carrusel -->
+        
+                <div class="card-body">
+                    <h5 class="card-title"> Adidas Superstar</h5>
+                    <p class="card-text"><strong>Precio:</strong> $90.00</p>
+                    <p class="card-text"><strong>Tallas disponibles:</strong>40, 41, 42, 43</p>
+                    
+                    <!-- Botón de Ver más -->
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo3" role="button" aria-expanded="false" aria-controls="moreInfo3">Ver más</a>
+        
+                    <!-- Información adicional -->
+                    <div class="collapse" id="moreInfo3">
+                        <div class="card card-body mt-2">
+                            <p class="card-text"><strong>Descripción:</strong> 
+                                Zapatillas icónicas con punta de goma y parte superior de cuero, diseñadas para estilo urbano y durabilidad.
+                            </p>
+                            <ul>
+                                <li><strong>Material:</strong> Cuero, goma</li>
+                                <li><strong>Colores disponibles:</strong>  Blanco con negro y negro con suela verde y lineas blancas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin producto 3-->
+            
+        
+        <!--inicio 4to producto-->  
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <!-- Carrusel de imágenes -->
+                <div id="carouselFormal4" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="pumasuede1.jpeg" class="d-block w-100" alt="Zapato Formal 4 - Imagen 7">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="pumasuede2.jpeg" class="d-block w-100" alt="Zapato Formal 4 - Imagen 8">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+                <!-- Fin del Carrusel -->
+        
+                <div class="card-body">
+                    <h5 class="card-title"> Puma Suede Classic </h5>
+                    <p class="card-text"><strong>Precio:</strong> $80.00</p>
+                    <p class="card-text"><strong>Tallas disponibles:</strong> 40, 41,42</p>
+                    
+                    <!-- Botón de Ver más -->
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo4">Ver más</a>
+        
+                    <!-- Información adicional -->
+                    <div class="collapse" id="moreInfo4">
+                        <div class="card card-body mt-2">
+                            <p class="card-text"><strong>Descripción:</strong> 
+                                Zapatillas de gamuza con diseño retro y suela de goma, ideales para un look casual y cómodo.
+                            </p>
+                            <ul>
+                                <li><strong>Material:</strong> Gamuza, goma</li>
+                                <li><strong>Colores disponibles:</strong> Morado con suela blanca y aqua con linea y suela blancas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         </div>
+         <!--fin 4 imagenes -->
+        
+         <!--inicio ultimas 4-->
+            <!--zapato 5-->   
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <!-- Carrusel de imágenes para Zapato 5 -->
+                        <div id="carouselFormal5" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="converse1.jpeg" class="d-block w-100" alt="Zapato Formal 9">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="converse2.jpeg" class="d-block w-100" alt="Zapato Formal 10">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Converse Chuck Taylor All Star</h5>
+                            <p class="card-text"><strong>Precio:</strong> $65.00</p>
+                            <p class="card-text"><strong>Tallas disponibles:</strong> 41, 42, 43</p>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo5" role="button" aria-expanded="false" aria-controls="moreInfo5">Ver más</a>
+                            <div class="collapse" id="moreInfo5">
+                                <div class="card card-body mt-2">
+                                    <p class="card-text"><strong>Descripción:</strong> 
+                                        Tenis de lona con diseño de caña alta, suela de goma y estilo clásico atemporal.
+                                    </p>
+                                    <ul>
+                                        <li><strong>Material:</strong> lona,goma</li>
+                                        <li><strong>Colores disponibles:</strong> Negro con suela blanca </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--fin 5to zapato-->
+    
+                <!-- Sexto zapato -->
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <!-- Carrusel de imágenes para Zapato 2 -->
+                        <div id="carouselFormal6" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="vans1.jpeg" class="d-block w-100" alt="Zapato Formal 11">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="vans2.jpeg" class="d-block w-100" alt="Zapato Formal 12">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"> Vans Old Skool </h5>
+                            <p class="card-text"><strong>Precio:</strong> $70.00</p>
+                            <p class="card-text"><strong>Tallas disponibles:</strong>  40, 41, 42, 43</p>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo6" role="button" aria-expanded="false" aria-controls="moreInfo6">Ver más</a>
+                            <div class="collapse" id="moreInfo6">
+                                <div class="card card-body mt-2">
+                                    <p class="card-text"><strong>Descripción:</strong> 
+                                        Tenis de lona y gamuza con la clásica banda lateral de Vans, perfectos para el día a día.
+                                    </p>
+                                    <ul>
+                                        <li><strong>Material:</strong> lona,gamuza</li>
+                                        <li><strong>Colores disponibles:</strong> negro con suela blanca  </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--fin sexto zapato-->
+           
+            <!--septimo zapato-->
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes -->
+                    <div id="carouselFormal7" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="reebok1.jpeg" class="d-block w-110" alt="Zapato Formal 7 - Imagen 13 ">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="reebok2.jpeg" class="d-block w-100" alt="Zapato Formal 7 - Imagen 14">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal7" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal7" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <!-- Fin del Carrusel -->
+            
+                    <div class="card-body">
+                        <h5 class="card-title">  Reebok Classic Leather </h5>
+                        <p class="card-text"><strong>Precio:</strong> $75.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong>40, 41</p>
+                        
+                        <!-- Botón de Ver más -->
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo7" role="button" aria-expanded="false" aria-controls="moreInfo7">Ver más</a>
+            
+                        <!-- Información adicional -->
+                        <div class="collapse" id="moreInfo7">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    Zapatillas de cuero suave con amortiguación cómoda y diseño retro.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Cuero,goma</li>
+                                    <li><strong>Colores disponibles:</strong> Blanco con suela color caramelo</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin septimo zapato -->
+                
+            
+            <!--octavo zapato-->  
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes -->
+                    <div id="carouselFormal8" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="new1.jpeg" class="d-block w-100" alt="Zapato Formal 8 - Imagen 15">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="new2.jpeg" class="d-block w-100" alt="Zapato Formal 8 - Imagen 16">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal8" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal8" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <!-- Fin del Carrusel -->
+            
+                    <div class="card-body">
+                        <h5 class="card-title"> New Balance 574</h5>
+                        <p class="card-text"><strong>Precio:</strong> $85.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong> 40, 41, 42</p>
+                        
+                        <!-- Botón de Ver más -->
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo8" role="button" aria-expanded="false" aria-controls="moreInfo8">Ver más</a>
+            
+                        <!-- Información adicional -->
+                        <div class="collapse" id="moreInfo8">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    Tenis con combinación de malla y gamuza, con entresuela EVA para mejor amortiguación y estilo deportivo.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Gamuza, malla </li>
+                                    <li><strong>Colores disponibles:</strong> Gris con blanco </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+        
+             <!--fin octavo zapato-->
+
+        <footer class="bg-light text-center py-4">
+            <p>© 2024 FootFusion . Todos los derechos reservados.</p>
+        </footer>
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>

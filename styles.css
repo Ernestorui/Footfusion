@@ -1,0 +1,242 @@
+/* Estilo General */
+body {
+    font-family: 'arial', sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color: #0d6efd;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+p, ul, li {
+    font-size: 1.1rem;
+    line-height: 1.7;
+}
+
+.container {
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #e9f7fe;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Estilos del Menú */
+.navbar {
+    background-color: #0d6efd;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    color :(255, 255, 255);
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: black;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #ff57ff;
+}
+
+/* Misión y Visión */
+#vision, #mision {
+    background-color: #e9f7fe;
+    padding: 40px;
+    border-left: 5px solid #0d6efd;
+    margin-bottom: 40px;
+}
+
+#vision h1, #mision h1 {
+    color: #333;
+}
+
+/* Quiénes somos */
+#quienes-somos {
+    background-color: #e9f7fe;
+    padding: 40px;
+    border-left: 5px solid blue;
+}
+
+/* Sección de Nuestros servicios */
+#servicios {
+    background-color: #fff;
+    padding: 40px;
+    border-left: 5px solid #0d6efd;
+}
+
+.list-group-item {
+    background-color: #e9f7fe;
+    border: none;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: #e9f7fee9;
+}
+
+
+/* Botones interactivos */
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Estilo responsivo para pantallas más pequeñas */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+
+    .container {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    #vision, #mision, #quienes-somos, #servicios {
+        padding: 30px;
+    }
+}
+/* Estilo del Menú de Navegación */
+.navbar {
+    background-color:rgb(0, 238, 255);
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: black; 
+}
+
+.navbar-nav .nav-link:hover {
+    color :#7d0dfd; /* Color al pasar el cursor */
+}
+
+/* Para dispositivos móviles */
+.navbar-toggler {
+    border-color: white;
+}
+
+.navbar-toggler-icon {
+    background-color:white;
+}
+.carousel-inner img {
+    width: 75%;  /* Hace que la imagen ocupe el ancho del contenedor */
+    height: 75px; /* Establece una altura fija */
+    object-fit: contain; /* Mantiene la proporción de la imagen sin recortarla */
+    display: block; /* Asegura que la imagen sea un bloque */
+    margin: 0 auto; /* Centra la imagen si es más pequeña que el contenedor */
+}
+
+  /* Estilo General */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ff00cc, #3333ff, #00ffcc, #ffcc00);
+    background-size: 200% 200%;
+    animation: tornasolEffect 5s infinite;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos uniformes para las tarjetas */
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 275px; /* Ajusta el valor según el tamaño deseado */
+}
+
+/* Asegura que las imágenes en las tarjetas sean proporcionales */
+.carousel-inner img {
+    width: 100%;
+    height: 100px; /* Fija una altura uniforme para todas las imágenes */
+    object-fit: contain; /* Mantiene la proporción de las imágenes sin recortarlas */
+}
+
+/* Ajusta el contenido para ocupar el mismo espacio */
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Botones del carrusel uniformes */
+.carousel-control-prev, .carousel-control-next {
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100%;
+}
+
+/* Asegura que las tarjetas tengan el mismo tamaño en pantallas pequeñas */
+@media (max-width: 768px) {
+    .card {
+        min-height: 400px;
+    }
+    .carousel-inner img {
+        height: 150px; /* Ajusta la altura para pantallas pequeñas */
+    }
+}
+/* Estilos del encabezado */
+.header-section {
+    background-image: url('dall1.webp'); /* Asegúrate de tener una imagen de fondo */
+    background-size: 60% auto; /* El ancho será el 80% del contenedor y la altura ajustada automáticamente */
+    background-position: center; /* Centra la imagen */
+    padding: 60px 0;
+    text-align: center;
+    color: black;
+}
+
+.header-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header-section h1 {
+    font-size: 3rem;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.header-section p {
+    font-size: 1.3rem;
+    margin-bottom: 30px;
+}
+
+.btn-header {
+    background-color: #f05454;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-header:hover {
+    background-color: #30475e;
+}
+#carouselExampleInterval img {
+    width: 275%;
+    height: 1000px; /* Ajusta la altura que deseas */
+    object-fit: cover; /* Asegura que la imagen se ajuste sin deformarse */
+}

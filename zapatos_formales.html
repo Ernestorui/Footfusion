@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapatos Formales - FootFusion</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">FootFusion</a>
+            <img src="logo.png" alt="Logo de FootFusion" style="width: 90px; height: auto;" class="me-2">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Categorías
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="zapatos_formales.html">Zapatos formales</a></li>
+                            <li><a class="dropdown-item" href="tenis.html">Tenis</a></li>
+                            <li><a class="dropdown-item" href="chanclas.html">Chanclas</a></li>
+                            <li><a class="dropdown-item" href="botas.html">Botas</a></li>
+                            <li><a class="dropdown-item" href="zapatos_personalizados.html">Zapatos personalizados</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Listado de Zapatos Formales -->
+    <section class="container mt-3">
+        <h1 class="text-center mb-4">Zapatos Formales Disponibles</h1>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes para Zapato 1 -->
+                    <div id="carouselFormal1" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="formal1.jpg" class="d-block w-100" alt="Zapato Formal 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="formal2.jpg" class="d-block w-100" alt="Zapato Formal 2">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal1" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal1" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Zapato Formal Clásico</h5>
+                        <p class="card-text"><strong>Precio:</strong> $120.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong> 40, 41, 42, 43</p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo1" role="button" aria-expanded="false" aria-controls="moreInfo1">Ver más</a>
+                        <div class="collapse" id="moreInfo1">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    Este elegante zapato de cuero negro es ideal para ocasiones formales y laborales.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Cuero genuino</li>
+                                    <li><strong>Colores disponibles:</strong> Negro, marrón oscuro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Segundo Zapato -->
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes para Zapato 2 -->
+                    <div id="carouselFormal2" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="formal3.jpg" class="d-block w-100" alt="Zapato Formal 3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="formal4.jpeg" class="d-block w-100" alt="Zapato Formal 4">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Zapato Oxford </h5>
+                        <p class="card-text"><strong>Precio:</strong> $150.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong> 39, 40, 41, 42, 43</p>
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo2" role="button" aria-expanded="false" aria-controls="moreInfo2">Ver más</a>
+                        <div class="collapse" id="moreInfo2">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    Un zapato oxford de cuero negro, conocido por su comodidad y durabilidad. Perfecto para el uso diario y eventos formales.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Cuero negro</li>
+                                    <li><strong>Colores disponibles:</strong> Negro y cafe</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!--fin segundo zapato-->
+       
+        <!--inicio 3er producto-->
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <!-- Carrusel de imágenes -->
+                <div id="carouselFormal3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="derby1.jpg" class="d-block w-100" alt="Zapato Formal 3 - Imagen 5 ">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="derby2.jpeg" class="d-block w-100" alt="Zapato Formal 3 - Imagen 6">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal3" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal3" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+                <!-- Fin del Carrusel -->
+        
+                <div class="card-body">
+                    <h5 class="card-title">Zapato Derby </h5>
+                    <p class="card-text"><strong>Precio:</strong> $110.00</p>
+                    <p class="card-text"><strong>Tallas disponibles:</strong>40, 41, 42, 43</p>
+                    
+                    <!-- Botón de Ver más -->
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo3" role="button" aria-expanded="false" aria-controls="moreInfo3">Ver más</a>
+        
+                    <!-- Información adicional -->
+                    <div class="collapse" id="moreInfo3">
+                        <div class="card card-body mt-2">
+                            <p class="card-text"><strong>Descripción:</strong> 
+                                Este zapato derby de cuero suave ofrece una gran comodidad y un estilo elegante, ideal para el trabajo o eventos especiales
+                            </p>
+                            <ul>
+                                <li><strong>Material:</strong> Cuero sintético de alta calidad</li>
+                                <li><strong>Colores disponibles:</strong> Negro, cafe</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--fin producto 3-->
+            
+        
+        <!--inicio 4to producto-->  
+        <div class="col-md-3">
+            <div class="card mb-3">
+                <!-- Carrusel de imágenes -->
+                <div id="carouselFormal4" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="brogue1.jpeg" class="d-block w-100" alt="Zapato Formal 4 - Imagen 7">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="brogue2.jpeg" class="d-block w-100" alt="Zapato Formal 4 - Imagen 8">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+                <!-- Fin del Carrusel -->
+        
+                <div class="card-body">
+                    <h5 class="card-title"> Zapato Brogue </h5>
+                    <p class="card-text"><strong>Precio:</strong> $150.00</p>
+                    <p class="card-text"><strong>Tallas disponibles:</strong> 40, 41, 42</p>
+                    
+                    <!-- Botón de Ver más -->
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo4" role="button" aria-expanded="false" aria-controls="moreInfo4">Ver más</a>
+        
+                    <!-- Información adicional -->
+                    <div class="collapse" id="moreInfo4">
+                        <div class="card card-body mt-2">
+                            <p class="card-text"><strong>Descripción:</strong> 
+                                Un zapato brogue con perforaciones decorativas, fabricado en cuero de alta calidad. Perfecto para ocasiones elegantes y formales.
+                            </p>
+                            <ul>
+                                <li><strong>Material:</strong> Cuero sintético de alta calidad</li>
+                                <li><strong>Colores disponibles:</strong> Negro, cafe</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+         </div>
+         <!--fin 4 imagenes -->
+        
+         <!--inicio ultimas 4-->
+            <!--zapato 5-->   
+         <div class="row">
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <!-- Carrusel de imágenes para Zapato 5 -->
+                        <div id="carouselFormal5" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="monk1.jpeg" class="d-block w-100" alt="Zapato Formal 9">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="monk2.jpeg" class="d-block w-100" alt="Zapato Formal 10">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal5" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal5" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Zapato Monk Strap </h5>
+                            <p class="card-text"><strong>Precio:</strong> $180.00</p>
+                            <p class="card-text"><strong>Tallas disponibles:</strong> 41, 42, 43</p>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo5" role="button" aria-expanded="false" aria-controls="moreInfo5">Ver más</a>
+                            <div class="collapse" id="moreInfo5">
+                                <div class="card card-body mt-2">
+                                    <p class="card-text"><strong>Descripción:</strong> 
+                                        Zapato con doble hebilla, combina estilo y comodidad. Ideal para eventos formales y reuniones de negocios.
+                                    </p>
+                                    <ul>
+                                        <li><strong>Material:</strong> Cuero genuino</li>
+                                        <li><strong>Colores disponibles:</strong> Negro, marrón oscuro</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--fin 5to zapato-->
+    
+                <!-- Sexto zapato -->
+                <div class="col-md-3">
+                    <div class="card mb-3">
+                        <!-- Carrusel de imágenes para Zapato 2 -->
+                        <div id="carouselFormal6" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="zapatodepiel1.jpeg" class="d-block w-100" alt="Zapato Formal 11">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="zapatodepiel2.jpeg" class="d-block w-100" alt="Zapato Formal 12">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal6" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Anterior</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal6" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Siguiente</span>
+                            </button>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title"> Zapato Formal de Piel </h5>
+                            <p class="card-text"><strong>Precio:</strong> $140.00</p>
+                            <p class="card-text"><strong>Tallas disponibles:</strong>  40, 41, 42, 43</p>
+                            <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo6" role="button" aria-expanded="false" aria-controls="moreInfo6">Ver más</a>
+                            <div class="collapse" id="moreInfo6">
+                                <div class="card card-body mt-2">
+                                    <p class="card-text"><strong>Descripción:</strong> 
+                                        Zapato de piel de color marrón con un diseño minimalista. Perfecto para un look formal y sofisticado.
+                                    </p>
+                                    <ul>
+                                        <li><strong>Material:</strong> Cuero genuino</li>
+                                        <li><strong>Colores disponibles:</strong> cafe oscuro </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!--fin sexto zapato-->
+           
+            <!--septimo zapato-->
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes -->
+                    <div id="carouselFormal7" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="zapatodecharol1.jpeg" class="d-block w-200" alt="Zapato Formal 7 - Imagen 13 ">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="zapatodecharol2.jpg" class="d-block w-110" alt="Zapato Formal 7 - Imagen 14">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal7" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal7" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <!-- Fin del Carrusel -->
+            
+                    <div class="card-body">
+                        <h5 class="card-title"> Zapato de Charol </h5>
+                        <p class="card-text"><strong>Precio:</strong> $160.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong>40, 41</p>
+                        
+                        <!-- Botón de Ver más -->
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo7" role="button" aria-expanded="false" aria-controls="moreInfo7">Ver más</a>
+            
+                        <!-- Información adicional -->
+                        <div class="collapse" id="moreInfo7">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    Elegante zapato de charol negro, ideal para bodas y eventos formales. Su diseño brillante lo hace destacar.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Cuero sintético de alta calidad</li>
+                                    <li><strong>Colores disponibles:</strong> Negro, cafe</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fin septimo zapato -->
+                
+            
+            <!--octavo zapato-->  
+            <div class="col-md-3">
+                <div class="card mb-3">
+                    <!-- Carrusel de imágenes -->
+                    <div id="carouselFormal8" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="cuero2.jpeg" class="d-block w-100" alt="Zapato Formal 8 - Imagen 15">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="cuero1.jpg" class="d-block w-100" alt="Zapato Formal 8 - Imagen 16">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFormal8" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFormal8" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+                    <!-- Fin del Carrusel -->
+            
+                    <div class="card-body">
+                        <h5 class="card-title">Zapato de Cuero </h5>
+                        <p class="card-text"><strong>Precio:</strong> $130.00</p>
+                        <p class="card-text"><strong>Tallas disponibles:</strong> 40, 41, 42</p>
+                        
+                        <!-- Botón de Ver más -->
+                        <a class="btn btn-primary" data-bs-toggle="collapse" href="#moreInfo8" role="button" aria-expanded="false" aria-controls="moreInfo8">Ver más</a>
+            
+                        <!-- Información adicional -->
+                        <div class="collapse" id="moreInfo8">
+                            <div class="card card-body mt-2">
+                                <p class="card-text"><strong>Descripción:</strong> 
+                                    Zapato de cuero en color marrón claro, diseñado para brindar comodidad y estilo en ocasiones formales.
+                                </p>
+                                <ul>
+                                    <li><strong>Material:</strong> Cuero genuino de alta calidad </li>
+                                    <li><strong>Colores disponibles:</strong> cafe con suela color crema y cafe oscuro</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             </div>
+             <!--fin octavo zapato-->
+
+        <footer class="bg-light text-center py-4">
+            <p>© 2024 FootFusion . Todos los derechos reservados.</p>
+        </footer>
+
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
+
